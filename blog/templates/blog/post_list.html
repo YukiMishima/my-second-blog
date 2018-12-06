@@ -4,15 +4,19 @@
     </head>
     <body>
         <div>
-            <h1><a href="/">Django Girls Blog by Yuki</a></h1>
+            <h1><a href="/">Django Girls Blog</a></h1>
         </div>
 
-	{% for post in posts %}
-		<div>
-			<p>published: {{post.published_date}}</p>
-			<h1><a href="">{{ post.title }}</a></h1>
-			<p>{{ post.text|linebreaksbr }}</p>
-        	</div>
-	{% endfor %}
+        <div>
+            <p>published:2018.12.5</p>
+            <h2><a href="">My first post</a></h2>
+            <p>こんにちは</p>
+        </div>
+
+        <div>
+            <p>公開日：2018ねん12月6日</p>
+            <h2><a href="">2番目の投稿</a></h2>
+            <p>おはようございます。初めまして</p>
+        </div>
     </body>
 </html>
